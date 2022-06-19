@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+}
+
+#btnDiscord {
+  position: fixed;
+  right: 1rem;
+  top: 2rem;
+  width: 50px;
+  height: 50px;
+  transition: transform .4s;
+}
+
+#btnDiscord:hover {
+  transform: scale(1.2);
+}
