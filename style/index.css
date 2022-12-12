@@ -12,6 +12,28 @@ a {
   text-decoration: none;
 }
 
+p {
+  font-size: 24px;
+}
+
+h1 {
+  font-size: 48px;
+  color: #F184D9;
+}
+
+h2 {
+  font-size: 24px;
+  color: #F184D9;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #303030;
+}
+
 .header-container {
   display: flex;
   width: 100%;
@@ -58,5 +80,42 @@ a {
   color: #420C6D;
   font-weight: 600;
   font-size: 20px;
+  cursor: pointer;
+}
+
+.about-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 5% 3%;
+  gap: 128px;
+  background-color: rgba(255, 255, 255, 0.14);
+}
+
+.about-image {
+  width: 530px;
+  height: 392px;
+  border-radius: 20px;
+}
+
+.about-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.about-container p {
+  color: #FFFFFF;
+}
+
+.about-button {
+  width: 199px;
+  height: 68px;
+  font-size: 24px;
+  border: 3px solid #F184D9;
+  border-radius: 50px;
+  background-color: transparent;
+  color: #FFFFFF;
+  margin-top: 48px;
   cursor: pointer;
 }
