@@ -119,3 +119,64 @@ body {
   margin-top: 48px;
   cursor: pointer;
 }
+
+.post-section h1 {
+  padding-top: 3%;
+  text-align: center;
+}
+
+.post-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 25px;
+  padding: 3%;
+}
+
+.post-card {
+  width: 420px;
+  height: 594px;
+  background: rgba(255, 253, 253, 0.06);
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(10px);
+  border-radius: 16px;
+}
+
+.post-image {
+  width: 417px;
+  height: 247px;
+  border-radius: 16px 16px 0px 0px;
+}
+
+.post-card h2 {
+  display: flex;
+  margin: 20px 16px;
+}
+
+.post-card-text {
+  font-size: 18px;
+  color: #FFFFFF;
+  margin: 20px 16px;
+}
+
+.post-author {
+  display: flex;
+  width: 90%;
+  gap: 16px;
+  margin: 24px 20px;
+  bottom: 10px;
+  position: fixed;
+}
+
+.post-author-imagem {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+}
+
+.post-author-details p,
+.post-author-details h3 {
+  font-size: 16px;
+  align-items: center;
+  color: #FFFFFF;
+}
