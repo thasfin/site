@@ -1,0 +1,48 @@
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    font-size: 62.5%; /* nesse caso, 1 REM equivale a 10px. Pois - por padrão - 100% equivale a 16px, então 10 px são 62.5% do padrão. Ou seja: 
+        1rem = 10px
+        10 rem = 100px
+        etc*/
+}
+
+footer{
+    width: 100vw; /*view width */
+    height: 11.3rem;
+    background-color: #420C6D;
+
+    display: flex;
+    flex-direction: row;
+
+}
+
+.frase1-footer, .frase2-footer, .frase3-footer{
+    color: #FFFFFF;
+}
+
+.frase1-footer{
+    font-family: 'Questrial', sans-serif;
+    font-weight: 400;
+    font-size: 4.0rem;
+
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem;
+    padding-left: 7.0rem;
+}
+
+.frase2-footer, .frase3-footer{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 2.0rem;
+
+    
+    padding-top: 2.9rem;
+    padding-bottom: 2.9rem;
+    padding-left: 16.5rem;
+
+}
