@@ -1,0 +1,80 @@
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    font-size: 62.5%;
+}
+
+.organizadores{
+    width: 100vw;
+    height: 59.9rem;
+    background-color: #ffffff24; /*ajustar cor de fundo no final*/
+
+}
+
+.organizadores::after{
+    background: #8C52FF;
+    opacity: 0.2; /*colocar opacidade mais 0.9 para conseguir visualizar melhor*/
+    filter: blur(100px);
+    content: "";
+    width: 100vw;
+    height: 59.9rem;
+    position: absolute;
+    border-radius: 50%;
+
+    width: 1138px;
+    height: 1136px;
+    left: -387px;
+    top: -387px;
+    z-index: -1;
+}
+
+.organizadores-title, .organizadores-list{
+    font-family: 'Poppins', sans-serif;
+}
+
+h1, .organizadores-title{
+    font-size: 4.5rem;
+    color: #F184D9;
+
+    display: flex;
+    justify-content: center;
+    
+    height: 6.3rem;
+
+    padding-top: 10.4rem;
+    padding-bottom: 4.8rem;
+        
+}
+
+.organizadores-list{
+    font-size: 2.5rem;
+    text-align: center;
+
+    padding-left: 7rem;
+    padding-right: 7rem;
+}
+
+ul, .organizadores{
+    /* display: flex;
+    flex-direction: row; */
+}
+
+a, .img-avatar{
+    height: 17.2rem;
+    width: 17.2rem;
+
+    text-decoration: none;
+}
+
+
+ul, li, .organizadores-list{
+    list-style: none;
+    
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+ }
