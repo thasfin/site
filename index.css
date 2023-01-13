@@ -34,60 +34,6 @@ body {
   background: #303030;
 }
 
-/* HEADER */
-.header-container {
-  display: flex;
-  width: 100vw;
-  height: 9rem;
-  align-items: center;
-  justify-content: space-between;
-  background-color: #420C6D;
-  color: #FFFFFF;
-  flex-wrap: wrap;
-}
-
-.header-title {
-  font-family: 'Questrial', sans-serif;
-  font-size: 2.5rem;
-  margin-left: 4rem;
-  color: #FFFFFF;
-}
-
-.header-menu {
-  display: flex;
-  align-items: center;
-  list-style: none;
-  gap: 1.5rem;
-  margin-right: 4.3rem;
-  font-size: 1.25rem;
-  font-weight: 600;
-  color: #FFFFFF;
-}
-
-.header-anchor {
-  color: #FFFFFF;
-}
-
-.header-button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 1rem 2rem;
-  width: 9.8rem;
-  height: 3.8rem;
-  background: #ED8CD1;
-  border: none;
-  border-radius: 4rem;
-  color: #420C6D;
-  font-weight: 600;
-  font-size: 1.25rem;
-  cursor: pointer;
-}
-
-.header-button a {
-  color: #420C6D;
-}
-
 /* SECTION SOBRE */
 .about-section {
   display: flex;

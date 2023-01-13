@@ -36,7 +36,7 @@
     font-family: 'Poppins', sans-serif;
 }
 
-h1, .organizadores-title{
+.organizadores-title{
     font-size: 4.5rem;
     color: #F184D9;
 
@@ -63,7 +63,7 @@ ul, .organizadores{
     flex-direction: row; */
 }
 
-a, .img-avatar{
+.img-avatar{
     height: 17.2rem;
     width: 17.2rem;
 
