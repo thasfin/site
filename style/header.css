@@ -15,7 +15,7 @@ h1 {
   color: #FFFFFF;
 }
 
-.header-menu {
+.menu {
   display: flex;
   align-items: center;
   list-style: none;
@@ -25,11 +25,16 @@ h1 {
   color: #FFFFFF;
 }
 
-.header-anchor {
+.menu-item a {
   color: #FFFFFF;
+  transition: all 0.8ms
 }
 
-.header-button {
+.menu-item:hover {
+  text-decoration: underline;
+}
+
+.button {
   padding: 1rem 2rem;
   background: #ED8CD1;
   border-radius: 4rem;
@@ -39,7 +44,7 @@ h1 {
   transition: all 0.8ms
 }
 
-.header-button:hover {
+.button:hover {
   filter: brightness(1.1);
   scale: 1.02;
 }
