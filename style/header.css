@@ -33,18 +33,3 @@ h1 {
 .menu-item:hover {
   text-decoration: underline;
 }
-
-.button {
-  padding: 1rem 2rem;
-  background: #ED8CD1;
-  border-radius: 4rem;
-  color: #420C6D;
-  font-weight: 600;
-  font-size: 1.25rem;
-  transition: all 0.8ms
-}
-
-.button:hover {
-  filter: brightness(1.1);
-  scale: 1.02;
-}
