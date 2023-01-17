@@ -1,6 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-
 * {
   margin: 0;
   padding: 0;
@@ -8,22 +5,12 @@
   font-family: 'Poppins', sans-serif;
 }
 
+:root{
+  font-size: 62.5%;
+}
+
 a {
   text-decoration: none;
-}
-
-p {
-  font-size: 1.5rem;
-}
-
-h1 {
-  font-size: 3rem;
-  color: #F184D9;
-}
-
-h2 {
-  font-size: 1.5rem;
-  color: #F184D9;
 }
 
 html {
@@ -31,7 +18,7 @@ html {
 }
 
 body {
-  background: #303030;
+  background: linear-gradient(180deg, #000000 0%, #000000 100%);
 }
 
 /* SECTION POSTAGENS */

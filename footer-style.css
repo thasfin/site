@@ -4,13 +4,6 @@
     padding: 0;
 }
 
-:root{
-    font-size: 62.5%; /* nesse caso, 1 REM equivale a 10px. Pois - por padrão - 100% equivale a 16px, então 10 px são 62.5% do padrão. Ou seja: 
-        1rem = 10px
-        10 rem = 100px
-        etc*/
-}
-
  /* ============== FOOTER ============= */
 
  footer{
