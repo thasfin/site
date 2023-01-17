@@ -13,12 +13,33 @@ a {
   text-decoration: none;
 }
 
+ul, li {
+  list-style: none;
+}
+
 html {
   scroll-behavior: smooth;
 }
 
 body {
   background: linear-gradient(180deg, #000000 0%, #000000 100%);
+}
+
+.spot {
+  background: #8C52FF;
+  opacity: 0.2;
+  filter: blur(100px);
+  content: "";
+  width: 100vw;
+  height: 59.9rem;
+  position: absolute;
+  border-radius: 50%;
+
+  width: 1138px;
+  height: 1136px;
+  left: -387px;
+  top: -387px;
+  z-index: -1;
 }
 
 /* SECTION POSTAGENS */
