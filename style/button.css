@@ -1,14 +1,24 @@
 .button {
-  padding: 1rem 2rem;
-  background: #ED8CD1;
-  border-radius: 4rem;
-  color: #420C6D;
   font-weight: 600;
-  font-size: 1.25rem;
-  transition: all 0.8ms
+  font-size: 2rem;
+  padding: 1.6rem 3.2rem;
+  border-radius: 4rem;
+  width: fit-content;
+
+  cursor: pointer;
+  transition: all 0.8ms;
+  
+  background: #ED8CD1;
+  color: #420C6D;
 }
 
 .button:hover {
   filter: brightness(1.1);
   scale: 1.02;
+}
+
+.button.secondary {
+  border: 3px solid #F184D9;
+  background-color: transparent;
+  color: #FFFFFF;
 }
