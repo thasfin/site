@@ -14,6 +14,10 @@
   flex-direction: column;
 }
 
+.about-description .section-title {
+  margin-bottom: 1.6rem;
+}
+
 .about-description p {
   color: white;
   font-weight: 400;
