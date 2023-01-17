@@ -1,11 +1,11 @@
 .about-wrapper {
-  display: flex;
+  flex-direction: row;
   gap: 12.8rem;
 }
 
 .about-image {
   width: 54rem;
-  
+
   border-radius: 1.25rem;
 }
 

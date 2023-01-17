@@ -1,5 +1,6 @@
 section {
   display: flex;
+  flex-direction: column;
   align-items: center;
   padding: 12.8rem 7.2rem;
 }
