@@ -12,9 +12,11 @@
   
   border: 0.2rem solid #fff;
   border-radius: 1.6rem;
-  text-align: initial;
   
-  background-color: rgb(22, 4, 37);
+  background: #ffffff0f;
+  border: 2px solid #ffffff4d;
+  box-shadow: 0px 20px 40px #0000000d;
+  backdrop-filter: blur(10px);
 }
 
 .card .button {
