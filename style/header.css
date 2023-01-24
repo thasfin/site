@@ -9,13 +9,6 @@ header {
   padding: 0 7rem;
 }
 
-h1 {
-  font-family: 'Questrial', sans-serif;
-  font-size: 4rem;
-  font-weight: 400;
-  color: #FFFFFF;
-}
-
 .menu {
   display: flex;
   align-items: center;
