@@ -1,0 +1,64 @@
+.post-wrapper {
+  display: flex;
+  gap: 2rem;
+}
+
+.post {
+  max-width: 42rem;
+  background: rgba(255, 253, 253, 0.06);
+  border: 0.2rem solid rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(10px);
+  border-radius: 1.6rem;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.post-banner {
+  height: 25rem;
+  width: 100%;
+  object-fit: cover;
+}
+
+.post-data {
+  padding: 3.2rem 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 1;
+}
+
+.post-title {
+  font-weight: 700;
+  font-size: 2.4rem;
+  color: var(--pink);
+  margin-bottom: 1.6rem;
+}
+
+.post-summary {
+  font-size: 1.6rem;
+  color: white;
+}
+
+.post-info {
+  gap: 1.6rem;
+  display: flex;
+  margin-top: 2.4rem;
+}
+
+.post-author-avatar {
+  width: 5.6rem;
+  height: 5.6rem;
+  border-radius: 50%;
+}
+
+.post-author-name {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: white;
+}
+
+.post-createdDate {
+  font-size: 1.6rem;
+  color: white;
+}
