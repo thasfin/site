@@ -26,6 +26,9 @@ html {
 
 body {
   background: linear-gradient(180deg, #000000 0%, #000000 100%);
+  color: white;
+  min-height: 100vh;
+  display: grid;
 }
 
 .spot {
@@ -45,15 +48,8 @@ body {
   z-index: -1;
 }
 
-/* PAGE CODIGO DE CONDUTA */
-.conduct-section h1{
-  padding-top: 3%;
-  text-align: center;
-}
-
-.conduct-section p {
-  padding: 4% 6%;
-  color: #FFFFFF;
+.conduct {
+  font-size: 2.5rem;
 }
 
 .thasfin-logo {
