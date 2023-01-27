@@ -1,60 +1,61 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Poppins", sans-serif;
 
-  --pink: #F184D9;
-  --purple-50: #420C6D;
+	--pink: #f184d9;
+	--purple-50: #420c6d;
 }
 
-:root{
-  font-size: 62.5%;
+:root {
+	font-size: 62.5%;
 }
 
 a {
-  text-decoration: none;
+	text-decoration: none;
 }
 
-ul, li {
-  list-style: none;
+ul,
+li {
+	list-style: none;
 }
 
 html {
-  scroll-behavior: smooth;
+	scroll-behavior: smooth;
 }
 
 body {
-  background: linear-gradient(180deg, #000000 0%, #000000 100%);
-  color: white;
-  min-height: 100vh;
-  display: grid;
+	background: linear-gradient(180deg, #000000 0%, #000000 100%);
+	color: white;
+	min-height: 100vh;
+	display: grid;
 }
 
 .spot {
-  background: #8C52FF;
-  opacity: 0.2;
-  filter: blur(100px);
-  content: "";
-  width: 100vw;
-  height: 59.9rem;
-  position: absolute;
-  border-radius: 50%;
+	background: #8c52ff;
+	opacity: 0.2;
+	filter: blur(100px);
+	content: "";
+	width: 100vw;
+	height: 59.9rem;
+	position: absolute;
+	border-radius: 50%;
 
-  width: 1138px;
-  height: 1136px;
-  left: -387px;
-  top: -387px;
-  z-index: -1;
+	width: 1138px;
+	height: 1136px;
+	left: -387px;
+	top: -387px;
+	z-index: -1;
 }
 
 .conduct {
-  font-size: 2.5rem;
+	font-size: 2.5rem;
 }
 
 .thasfin-logo {
-  font-family: 'Questrial', sans-serif;
-  font-size: 4rem;
-  font-weight: 400;
-  color: white;
+	font-family: "Questrial", sans-serif;
+	font-size: 4rem;
+	font-weight: 400;
+	color: white;
 }

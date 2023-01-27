@@ -1,18 +1,18 @@
-footer{
-    background-color: var(--purple-50);
+footer {
+	background-color: var(--purple-50);
 
-    padding: 3rem 7rem;
+	padding: 3rem 7rem;
 
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
 
-    color: white;
+	color: white;
 }
 
 .copyright {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 400;
-    font-size: 2rem;
+	font-family: "Poppins", sans-serif;
+	font-weight: 400;
+	font-size: 2rem;
 }
