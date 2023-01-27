@@ -1,24 +1,24 @@
 .button {
-  font-weight: 600;
-  font-size: 2rem;
-  padding: 1.6rem 3.2rem;
-  border-radius: 4rem;
-  width: fit-content;
+	font-weight: 600;
+	font-size: 2rem;
+	padding: 1.6rem 3.2rem;
+	border-radius: 4rem;
+	width: fit-content;
 
-  cursor: pointer;
-  transition: all 0.8ms;
-  
-  background: #ED8CD1;
-  color: #420C6D;
+	cursor: pointer;
+	transition: all 0.8ms;
+
+	background: #ed8cd1;
+	color: #420c6d;
 }
 
 .button:hover {
-  filter: brightness(1.1);
-  scale: 1.02;
+	filter: brightness(1.1);
+	scale: 1.02;
 }
 
 .button.secondary {
-  border: 3px solid #F184D9;
-  background-color: transparent;
-  color: #FFFFFF;
+	border: 3px solid #f184d9;
+	background-color: transparent;
+	color: #ffffff;
 }
