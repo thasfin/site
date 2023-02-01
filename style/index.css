@@ -1,23 +1,61 @@
 * {
-  margin: 0;
-  padding: 0;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Poppins", sans-serif;
+
+	--pink: #f184d9;
+	--purple-50: #420c6d;
+}
+
+:root {
+	font-size: 62.5%;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul,
+li {
+	list-style: none;
+}
+
+html {
+	scroll-behavior: smooth;
 }
 
 body {
-  overflow: hidden;
-  width: 100vw;
-  height: 100vh;
+	background: linear-gradient(180deg, #000000 0%, #000000 100%);
+	color: white;
+	min-height: 100vh;
+	display: grid;
 }
 
-#btnDiscord {
-  position: fixed;
-  right: 1rem;
-  top: 2rem;
-  width: 50px;
-  height: 50px;
-  transition: transform .4s;
+.spot {
+	background: #8c52ff;
+	opacity: 0.2;
+	filter: blur(100px);
+	content: "";
+	width: 100vw;
+	height: 59.9rem;
+	position: absolute;
+	border-radius: 50%;
+
+	width: 1138px;
+	height: 1136px;
+	left: -387px;
+	top: -387px;
+	z-index: -1;
 }
 
-#btnDiscord:hover {
-  transform: scale(1.2);
+.conduct {
+	font-size: 2.5rem;
+}
+
+.thasfin-logo {
+	font-family: "Questrial", sans-serif;
+	font-size: 4rem;
+	font-weight: 400;
+	color: white;
 }

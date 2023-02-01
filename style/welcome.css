@@ -1,0 +1,38 @@
+.welcome {
+	display: flex;
+	flex-direction: column;
+	padding: 14rem 17rem 17rem;
+}
+
+.welcome-wrapper {
+	display: grid;
+	grid-template-columns: minmax(54rem, 60rem) auto;
+	justify-items: stretch;
+	margin-bottom: 6.6rem;
+}
+
+.welcome-intro {
+	display: flex;
+	flex-direction: column;
+}
+
+.welcome-salut {
+	font-size: 3rem;
+	margin-bottom: 5.2rem;
+}
+
+.welcome-title {
+	font-size: 6rem;
+	font-weight: 600;
+	line-height: 7rem;
+	margin-bottom: 4.6rem;
+}
+
+.astronaut-icon {
+	max-height: 40rem;
+}
+
+.welcome-text {
+	font-size: 2.5rem;
+	line-height: 3.8rem;
+}

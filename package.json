@@ -1,0 +1,11 @@
+{
+	"name": "site",
+	"version": "1.0.0",
+	"main": "index.js",
+	"repository": "https://github.com/thasfin/site.git",
+	"author": "Daniela Caus",
+	"license": "MIT",
+	"devDependencies": {
+		"prettier": "^2.8.3"
+	}
+}
