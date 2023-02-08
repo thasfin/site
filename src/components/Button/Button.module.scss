@@ -10,15 +10,15 @@
 
 	background: #ed8cd1;
 	color: #420c6d;
-}
 
-.button:hover {
-	filter: brightness(1.1);
-	scale: 1.02;
-}
+	&:hover {
+		filter: brightness(1.1);
+		scale: 1.02;
+	}
 
-.button.secondary {
-	border: 3px solid #f184d9;
-	background-color: transparent;
-	color: #ffffff;
+	&.secondary {
+		border: 3px solid #f184d9;
+		background-color: transparent;
+		color: #ffffff;
+	}
 }
