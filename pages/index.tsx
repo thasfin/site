@@ -1,3 +1,4 @@
+import Button from "../src/components/Button"
 import Header from "../src/components/Header"
 
 function HomePage() {
@@ -12,12 +13,13 @@ function HomePage() {
 						<h2 className="welcome-title">
 							A comunidade para entusiastas da tecnologia
 						</h2>
-						<a
-							className="button"
+
+						<Button
+							tag="a"
 							href="https://discord.com/invite/XQHh3yCN3C"
 						>
-							Participe já!
-						</a>
+							Participe Já!
+						</Button>
 					</div>
 					<img
 						className="astronaut-icon"

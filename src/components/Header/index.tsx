@@ -1,3 +1,4 @@
+import Button from "../Button"
 import style from "./Header.module.scss"
 
 export default function Header() {
@@ -7,13 +8,9 @@ export default function Header() {
 				Thasfin Community
 			</h1>
 			<nav className={style.menu}>
-				<a
-					className="button"
-					href="https://discord.com/invite/XQHh3yCN3C"
-					target="_blank"
-				>
+				<Button tag="a" href="https://discord.com/invite/XQHh3yCN3C">
 					Discord
-				</a>
+				</Button>
 			</nav>
 		</header>
 	)

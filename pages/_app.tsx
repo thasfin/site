@@ -1,5 +1,4 @@
 import "../style/index.css"
-import "../style/button.css"
 import "../style/footer.css"
 import "../style/welcome.css"
 
