@@ -1,20 +1,9 @@
+import Header from "../src/components/Header"
+
 function HomePage() {
 	return (
 		<>
-			<header>
-				<h1 className="thasfin-logo" lang="en">
-					Thasfin Community
-				</h1>
-				<nav className="menu">
-					<a
-						className="button"
-						href="https://discord.com/invite/XQHh3yCN3C"
-						target="_blank"
-					>
-						Discord
-					</a>
-				</nav>
-			</header>
+			<Header />
 
 			<main className="welcome">
 				<div className="welcome-wrapper">
@@ -27,7 +16,7 @@ function HomePage() {
 							className="button"
 							href="https://discord.com/invite/XQHh3yCN3C"
 						>
-							Participe Já!
+							Participe já!
 						</a>
 					</div>
 					<img
