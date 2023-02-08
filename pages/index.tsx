@@ -1,4 +1,5 @@
 import Button from "../src/components/Button"
+import Footer from "../src/components/Footer"
 import Header from "../src/components/Header"
 
 function HomePage() {
@@ -36,13 +37,7 @@ function HomePage() {
 				</p>
 			</main>
 
-			<footer>
-				<p className="thasfin-logo">Thasfin Community</p>
-				<article className="copyright">
-					Comunidade de Tecnologia <br />© Thasfin Community. Todos os
-					direitos reservados.
-				</article>
-			</footer>
+			<Footer />
 		</>
 	)
 }

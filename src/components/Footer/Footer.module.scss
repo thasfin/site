@@ -1,4 +1,4 @@
-footer {
+.footer {
 	background-color: var(--purple-50);
 
 	padding: 3rem 7rem;
@@ -9,10 +9,10 @@ footer {
 	align-items: center;
 
 	color: white;
-}
 
-.copyright {
-	font-family: "Poppins", sans-serif;
-	font-weight: 400;
-	font-size: 2rem;
+	.copyright {
+		font-family: "Poppins", sans-serif;
+		font-weight: 400;
+		font-size: 2rem;
+	}
 }
